@@ -19,9 +19,7 @@ public class TC008_DuplicateLead extends OpentapsWrappers{
 	@Test(dataProvider="fetchData")
 	public void duplicateLead(String userName, String passWord, 
 			String vUser, String email) {
-		
-		
-		
+			
 		new LoginPage()
 		.enterUserName(userName)
 		.enterPassword(passWord)
