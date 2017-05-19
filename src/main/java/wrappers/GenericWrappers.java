@@ -373,7 +373,7 @@ public class GenericWrappers {
 	/**
 	 * This method will select the drop down value using id as locator
 	 * @param id The id (locator) of the drop down element
-	 * @param value The value to be selected (visibletext) from the dropdownlist 
+	 * @param value The value to be selected (visibletext) from the dropdownlist1 
 	 * @author Babu - TestLeaf
 	 */
 	public boolean selectById(String id, String value) {
